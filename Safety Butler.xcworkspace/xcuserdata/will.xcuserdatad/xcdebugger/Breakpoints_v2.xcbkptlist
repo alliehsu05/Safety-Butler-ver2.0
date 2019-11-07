@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "55163F88-151C-49AE-9267-81321BE88E26"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "situationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - 56f71217f620e451"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.name.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - 3b64ba7e758e9445"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.name.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - 7dabd82371de8056"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.name.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - 9de2ab96a40e6669"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.name.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - 52432d230ecdf08a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Safety_Butler.situationViewController"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "CC98790A-4BF3-485D-8E0F-8BEFBBA8B61A - f7e4ebdf7478c7c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Safety_Butler.situationViewController&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "659">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "situationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - 9d1d16352656722b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.phone.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - e31aece3f43022df"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.phone.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - 74cd6e7ec4711e28"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.phone.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - 3cf01196a957b32a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.phone.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - 52432d230ecdf08a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Safety_Butler.situationViewController"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "821">
+               </Location>
+               <Location
+                  uuid = "7F584576-0347-4D65-97F1-0EAA4D4E3390 - f7e4ebdf7478c7c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Safety_Butler.situationViewController&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "situationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - d985bde552f06fe6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emername.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - 950b5f5c830a1fea"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emername.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - 1eb6fb9078b90bfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emername.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - bea60b2e82789b39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emername.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - 52432d230ecdf08a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Safety_Butler.situationViewController"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "914">
+               </Location>
+               <Location
+                  uuid = "66AB5715-1538-4BAF-82F0-70AC63C90E50 - f7e4ebdf7478c7c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Safety_Butler.situationViewController&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "845">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32B1259B-5EF7-4596-A457-7D92017701BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "situationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - 8705730af1a8b778"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emerphone.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - 7c257fdd2ea2676c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emerphone.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - 644efc08a721537d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emerphone.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - b8acdd93b45c212b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.emerphone.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - 52432d230ecdf08a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Safety_Butler.situationViewController"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1007">
+               </Location>
+               <Location
+                  uuid = "32B1259B-5EF7-4596-A457-7D92017701BD - f7e4ebdf7478c7c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.situationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Safety_Butler.situationViewController&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/situationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "938">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8E070FB-52DD-4F6E-885A-68350DDA12A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/emodalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "goMainBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54216FF2-C5E1-447B-9559-140F7A5C6C27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/emodalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "goMainBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7794A23-814D-4FC4-9532-4BB661CEAF61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/emodalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "goMainBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2009BFD-27FC-4A96-A870-74495065E273"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/emodalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "checkAccess()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "352981AE-4262-477F-9C42-CCC26F0569DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/emodalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "checkAccess()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F139268D-ED87-4329-906C-9FB3AAEBABBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D34460C-5A14-4DA2-96CD-457B957DA46A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43EF62BF-552D-4ACE-9D2B-3330B690A76A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F43078FB-EAC4-443D-8035-C7AC4B211F96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78324691-B34A-4809-8A60-82D4FE1742D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3E2D07D-8967-4D6F-8334-913FEFEF4469"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F6C0544-B8C6-4F50-8F43-54F687D60698"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/CoreDataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "addRecord(time:temp:gas:flame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A82B6153-7213-4F19-A4AC-B2763FFB54B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/CoreDataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "addRecord(time:temp:gas:flame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1038F704-3AA3-4DA3-8C2E-CE7F9FD901FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/CoreDataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "fetchAllRecord()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20AC7077-86E2-4EEA-938E-C6470E1E627C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/recordTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFCAA285-23E9-4B5C-9BDA-14F63BADB199"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "createRecrod()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D91DBF33-A391-4EF9-BF61-BDB25E8D218F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/recordTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "getRecrod()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "773CEF07-B5E0-45A8-A64A-C9806467CDDC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/CoreDataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "fetchAllRecord()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "773CEF07-B5E0-45A8-A64A-C9806467CDDC - 2b094bfd51eebb20"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.CoreDataController.fetchAllRecord() -&gt; Swift.Array&lt;Safety_Butler.Record&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/CoreDataController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1852">
+               </Location>
+               <Location
+                  uuid = "773CEF07-B5E0-45A8-A64A-C9806467CDDC - 2b094bfd51eebb20"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Safety_Butler.CoreDataController.fetchAllRecord() -&gt; Swift.Array&lt;Safety_Butler.Record&gt;"
+                  moduleName = "Safety Butler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/will/Documents/FIT5140-IOS%20Development/Safety%20Butler/Safety%20Butler/CoreDataController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "3159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CE8E414-B263-4B8B-BA28-3113AC76846D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "getStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4778C1D3-F429-4C5F-AE91-23CEC53D4FC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "getStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B0F5EA6-7C7F-489E-908C-8FACFE9983CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Safety Butler/situationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "getStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
