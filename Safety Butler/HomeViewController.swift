@@ -8,8 +8,9 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController{
 
+    
     var name: String? = nil
     var emername: String? = nil
     var emerphone: String? = nil
@@ -19,51 +20,36 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        /*emername = UserDefaults.standard.string(forKey: "emerName")
-        emerphone = UserDefaults.standard.string(forKey: "emerPhone")
-        print(emername)
-        print(emerphone)
-        if emername == nil || emerphone == nil {
-            warningMessage.text = ""
-        } else{
-            warningMessage.text = "Hello, Mr Bean!"
+      
+        let loginStatus = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if loginStatus {
+            //
+        } else {
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+            performSegue(withIdentifier: "goToInitial", sender: self)
         }
-        */
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in})
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let loginStatus = UserDefaults.standard.bool(forKey: "launchedBefore")
-        
-        if loginStatus {
-            /*
-            UserDefaults.standard.set(true, forKey: "launchedBefore")
-            performSegue(withIdentifier: "goToInitial", sender: self)
-            */
-        } else {
-            UserDefaults.standard.set(true, forKey: "launchedBefore")
-            performSegue(withIdentifier: "goToInitial", sender: self)
-        }
-        
-        emername = UserDefaults.standard.string(forKey: "emerName")
-        emerphone = UserDefaults.standard.string(forKey: "emerPhone")
-        name = UserDefaults.standard.string(forKey: "userName")
-        print(emername)
-        print(emerphone)
-        if emername == nil || emerphone == nil {
-            warningMessage.text = "You have not set the emergency contact yet."
-        } else{
-            warningMessage.text = "Hello, \(name!)"
-        }
-        
+        checkDefault()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        if segue.identifier == "situationSegue"{
-            let destination = segue.destination as! situationViewController
-        }
-    }
-
+    //check user default
+    func checkDefault() {
+    
+     emername = UserDefaults.standard.string(forKey: "emerName")
+     emerphone = UserDefaults.standard.string(forKey: "emerPhone")
+     name = UserDefaults.standard.string(forKey: "userName")
+     if emername == nil || emerphone == nil {
+         warningMessage.text = "Please check your Emergency Detail"
+     } else{
+         warningMessage.text = "Hi, \(name!)"
+         }
+         
+     }
+    
+    
+    
 }

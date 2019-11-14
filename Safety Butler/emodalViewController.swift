@@ -8,8 +8,10 @@
 
 import UIKit
 
-class emodalViewController: UIViewController {
+class emodalViewController: UIViewController, UITextFieldDelegate{
 
+    
+    
     let userDefault = UserDefaults.standard
     
     @IBOutlet weak var nameLabel: UITextField!
@@ -22,13 +24,27 @@ class emodalViewController: UIViewController {
     var enameIsValid = false
     var ephoneIsValid = false
     var situation = 100
+    var alertInfo: String = ""
+    var nameInfo: String = ""
+    var phoneInfo: String = ""
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        nameLabel.delegate = self
+        phoneLabel.delegate = self
+        emerNameLabel.delegate = self
+        emerPhoneLabel.delegate = self
         // Do any additional setup after loading the view.
+        
     }
     
+    /*Check validation of all inputs from user.
+     Change boolean value if all validations pass.
+     Set user default values in the system.
+     */
     @IBAction func goMainBtn(_ sender: Any) {
         checkNameValidation()
         checkPhoneValidation()
@@ -38,12 +54,19 @@ class emodalViewController: UIViewController {
             userDefault.setValue(phoneLabel.text!, forKey: "userPhone")
             userDefault.setValue(emerNameLabel.text!, forKey: "emerName");
             userDefault.setValue(emerPhoneLabel.text!, forKey: "emerPhone");
-            self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
-            self.presentingViewController?.reloadInputViews()
+            self.presentingViewController?.dismiss(animated: true, completion: nil)
         }
         
     }
     
+    //Remove keyboard when user hit 'return' button.
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    //Check validation of names user enter.
+    //The name should only contain letters with or without middle name and last name.
     func checkNameValidation(){
         let regex = try! NSRegularExpression(pattern: "^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$")
         let range = NSRange(location: 0, length: nameLabel.text!.utf16.count)
@@ -58,6 +81,8 @@ class emodalViewController: UIViewController {
         }
     }
     
+    //Check validation of phone numbers user enter.
+    //Numbers should be length of 10 numbers ans start with '04'.
     func checkPhoneValidation() {
         let regex = try! NSRegularExpression(pattern: "^04[0-9]{8,8}$")
         let phoneRange = NSRange(location: 0, length: phoneLabel.text!.utf16.count)
@@ -72,37 +97,36 @@ class emodalViewController: UIViewController {
         }
     }
     
+    //Check if all user input is true.
+    //If true, pass the process to next step.
+    //If false, user alert to tell user where is the fail and clear all input text fields.
     func checkAccess(){
         if nameIsValid == false || enameIsValid == false {
-            let alertController = UIAlertController(title: "Name Error", message: "Name should be contain only letters with or without surname.", preferredStyle: UIAlertController.Style.alert)
-            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
-            self.present(alertController,animated: true,completion: nil)
-            clear()
+            nameInfo = "Name should be contain only letters with or without surname."
+            alertInfo = alertInfo + " " + nameInfo
         }
-        if nameIsValid == false || enameIsValid == false {
-            let alertController = UIAlertController(title: "Phone Number Error", message: "Phone number should be start with 04 and its length is 10.", preferredStyle: UIAlertController.Style.alert)
+        if phoneIsValid == false || ephoneIsValid == false {
+            phoneInfo = "Phone number should be start with 04 and its length is 10."
+            alertInfo = alertInfo + " " + phoneInfo
+        }
+        
+        if alertInfo != "" {
+            let alertController = UIAlertController(title: "Input Error", message:alertInfo, preferredStyle: UIAlertController.Style.alert)
             alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
             self.present(alertController,animated: true,completion: nil)
             clear()
+            alertInfo = ""
         }
         if nameIsValid == true && enameIsValid == true && phoneIsValid == true && ephoneIsValid == true {
             access = true
         }
     }
+    
+    //Clear all input fields in the vc.
     func clear() {
         nameLabel.text = ""
         phoneLabel.text = ""
         emerNameLabel.text = ""
         emerPhoneLabel.text = ""
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -9,18 +9,7 @@
 import Foundation
 
 
-enum DatabaseChange {
-    case add
-    case remove
-    case update
-}
-
-enum ListenerType {
-    case heroes
-}
-
-
-
+//Do changes, add/delete/fetch/save to CoreData.
 protocol DatabaseProtocol: AnyObject {
     func addRecord(time: String, temp: Double, gas: String, flame: String) -> Record
     func deleteRecord(record: Record)

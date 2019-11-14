@@ -10,8 +10,8 @@ import UIKit
 import CoreData
 
 class CoreDataController: NSObject, DatabaseProtocol, NSFetchedResultsControllerDelegate {
-
-
+    
+    
     var persistantContainer: NSPersistentContainer
     var allRecordsFetchedResultsController: NSFetchedResultsController<Record>?
     
@@ -22,11 +22,11 @@ class CoreDataController: NSObject, DatabaseProtocol, NSFetchedResultsController
                 fatalError("Failed to load Core Data Stack: \(error)")
             }
         }
-
+        
         super.init()
         
-      
     }
+    
     //save any change for database
     func saveContext() {
         if persistantContainer.viewContext.hasChanges {
@@ -45,30 +45,26 @@ class CoreDataController: NSObject, DatabaseProtocol, NSFetchedResultsController
         record.temp = temp
         record.gas = gas
         record.flame = flame
-   
         
         saveContext()
-       // print(record)
         return record
-        
     }
-
     
+    
+    //Delete record
     func deleteRecord(record: Record) {
         persistantContainer.viewContext.delete(record)
-        
         saveContext()
     }
-
     
-    
+    //Fetch all records
     func fetchAllRecord() -> [Record] {
         if allRecordsFetchedResultsController == nil {
             let fetchRequest: NSFetchRequest<Record> = Record.fetchRequest()
             let timeSortDescriptor = NSSortDescriptor(key: "time", ascending: true)
             fetchRequest.sortDescriptors = [timeSortDescriptor]
-           
-        
+            
+            
             allRecordsFetchedResultsController = NSFetchedResultsController<Record>(fetchRequest: fetchRequest, managedObjectContext: persistantContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
             allRecordsFetchedResultsController?.delegate = self
             
@@ -83,11 +79,11 @@ class CoreDataController: NSObject, DatabaseProtocol, NSFetchedResultsController
         if allRecordsFetchedResultsController?.fetchedObjects != nil {
             records = (allRecordsFetchedResultsController?.fetchedObjects)!
         }
-
+        
         return records
     }
-
     
-
-
-    }
+    
+    
+    
+}

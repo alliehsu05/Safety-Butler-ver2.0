@@ -16,8 +16,9 @@ class emerViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //Dismiss the modal window to home page.
     @IBAction func toMainBtn(_ sender: Any) {
-        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
 

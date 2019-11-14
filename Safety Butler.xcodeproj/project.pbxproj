@@ -20,7 +20,6 @@
 		BE1A8039236FE6D900651F26 /* emodalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A8038236FE6D900651F26 /* emodalViewController.swift */; };
 		BE2E783523644B050022995F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E783423644B050022995F /* AppDelegate.swift */; };
 		BE2E783723644B050022995F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E783623644B050022995F /* SceneDelegate.swift */; };
-		BE2E783923644B050022995F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E783823644B050022995F /* ViewController.swift */; };
 		BE2E783C23644B050022995F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2E783A23644B050022995F /* Main.storyboard */; };
 		BE2E783E23644B060022995F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2E783D23644B060022995F /* Assets.xcassets */; };
 		BE2E784123644B060022995F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2E783F23644B060022995F /* LaunchScreen.storyboard */; };
@@ -28,7 +27,7 @@
 		BE2E784B236A911D0022995F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E784A236A911D0022995F /* HomeViewController.swift */; };
 		BE2E784D236A913A0022995F /* situationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E784C236A913A0022995F /* situationViewController.swift */; };
 		BE2E784F236A914F0022995F /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E784E236A914F0022995F /* contactViewController.swift */; };
-		BE2E7851236A91670022995F /* defaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E7850236A91670022995F /* defaultViewController.swift */; };
+		BEA711BA23751A480090BC9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA711B923751A480090BC9D /* ViewController.swift */; };
 		BEC1D4472373BDB60086DBB3 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1D4452373BDB60086DBB3 /* Record+CoreDataClass.swift */; };
 		BEC1D4482373BDB60086DBB3 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1D4462373BDB60086DBB3 /* Record+CoreDataProperties.swift */; };
 		BEC1D44A2373DB390086DBB3 /* Capture.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC1D4492373DB390086DBB3 /* Capture.png */; };
@@ -50,7 +49,6 @@
 		BE2E783123644B050022995F /* Safety Butler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safety Butler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2E783423644B050022995F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE2E783623644B050022995F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE2E783823644B050022995F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE2E783B23644B050022995F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2E783D23644B060022995F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2E784023644B060022995F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +57,7 @@
 		BE2E784A236A911D0022995F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BE2E784C236A913A0022995F /* situationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = situationViewController.swift; sourceTree = "<group>"; };
 		BE2E784E236A914F0022995F /* contactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
-		BE2E7850236A91670022995F /* defaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultViewController.swift; sourceTree = "<group>"; };
+		BEA711B923751A480090BC9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEC1D4452373BDB60086DBB3 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BEC1D4462373BDB60086DBB3 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BEC1D4492373DB390086DBB3 /* Capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture.png; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				BEC1D4462373BDB60086DBB3 /* Record+CoreDataProperties.swift */,
 				BE2E783423644B050022995F /* AppDelegate.swift */,
 				BE2E783623644B050022995F /* SceneDelegate.swift */,
-				BE2E783823644B050022995F /* ViewController.swift */,
 				BE2E783A23644B050022995F /* Main.storyboard */,
 				BE2E78482369383F0022995F /* GoogleService-Info.plist */,
 				BE2E783D23644B060022995F /* Assets.xcassets */,
@@ -132,7 +129,6 @@
 				BE2E784C236A913A0022995F /* situationViewController.swift */,
 				BE1A8017236E990F00651F26 /* FirebaseController.swift */,
 				BE2E784E236A914F0022995F /* contactViewController.swift */,
-				BE2E7850236A91670022995F /* defaultViewController.swift */,
 				BE1A801D236EB99100651F26 /* userInfo.swift */,
 				BE1A801F236FA5C800651F26 /* recordTableViewController.swift */,
 				BE1A8021236FA8AB00651F26 /* Record.xcdatamodeld */,
@@ -141,6 +137,7 @@
 				BE1A8034236FBFBE00651F26 /* RecordTableViewCell.swift */,
 				BE1A8036236FD9B900651F26 /* emerViewController.swift */,
 				BE1A8038236FE6D900651F26 /* emodalViewController.swift */,
+				BEA711B923751A480090BC9D /* ViewController.swift */,
 			);
 			path = "Safety Butler";
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 			files = (
 				BE1A801A236E992400651F26 /* Cond.swift in Sources */,
 				BE1A8018236E990F00651F26 /* FirebaseController.swift in Sources */,
-				BE2E783923644B050022995F /* ViewController.swift in Sources */,
 				BE1A8039236FE6D900651F26 /* emodalViewController.swift in Sources */,
 				BEC1D4482373BDB60086DBB3 /* Record+CoreDataProperties.swift in Sources */,
 				BE1A8035236FBFBE00651F26 /* RecordTableViewCell.swift in Sources */,
@@ -275,8 +271,8 @@
 				BE1A8023236FA8AB00651F26 /* Record.xcdatamodeld in Sources */,
 				BE1A802F236FB35F00651F26 /* CoreDataController.swift in Sources */,
 				BE2E784D236A913A0022995F /* situationViewController.swift in Sources */,
+				BEA711BA23751A480090BC9D /* ViewController.swift in Sources */,
 				BEC1D4472373BDB60086DBB3 /* Record+CoreDataClass.swift in Sources */,
-				BE2E7851236A91670022995F /* defaultViewController.swift in Sources */,
 				BE2E783723644B050022995F /* SceneDelegate.swift in Sources */,
 				BE1A8037236FD9B900651F26 /* emerViewController.swift in Sources */,
 				BE1A801E236EB99100651F26 /* userInfo.swift in Sources */,
